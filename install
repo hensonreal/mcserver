@@ -13,12 +13,14 @@ read choiceForServer
 
 # wget -q "https://download.oracle.com/java/17/archive/jdk-17.0.3_linux-x64_bin.tar.gz" -O bin/java.tar.xz
 # wget -q "https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz" -O bin/java.tar.xz
-wget -q "https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_linux-x64_bin.tar.gz" -O bin/java.tar.xz
+# wget -q "https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_linux-x64_bin.tar.gz" -O bin/java.tar.xz
+wget -q "https://download.java.net/java/GA/jdk25.0.2/b1e0dfa218384cb9959bdcb897162d4e/10/GPL/openjdk-25.0.2_linux-x64_bin.tar.gz" -O bin/java.tar.xz
 
 cd $MAIN_DIR/bin
 echo "> Extracting Java JDK 16 to the bin/ folder. [THIS MAY TAKE SOME TIME] Replace it if you want to use older version of JAVA."
 # tar -xf java.tar.xz && mv "jdk-17.0.1" java_bins
-tar -xf java.tar.xz && mv "jdk-21.0.1" java_bins
+# tar -xf java.tar.xz && mv "jdk-21.0.1" java_bins
+tar -xf java.tar.xz && mv "jdk-25.0.2" java_bins
 
 cd $MAIN_DIR
 # If choice is 0 or null then run this command
