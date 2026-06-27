@@ -1,18 +1,21 @@
 # Source code
 - https://github.com/lordofwizard/mcserver
+- https://github.com/tony0406/mcserver
 ## 更動
-- 修改 install 內的java 17 至 java 21
+- 修改 install 內的java 21 至 java 25
 ## 教學指令參考
 - https://www.youtube.com/watch?v=f2nvfJuI5GU&t
 ## 使用差別
 ### 系統安裝
 原本：<del>Debian GNU/Linux, 11 or 12</del> <br>
-現在：Ubuntu, 20.04 LTS
+現在：Ubuntu, 26.04 LTS 
 ### java安裝指令
 原本：<del>5. 輸入apt-get install openjdk-17-jre-headless</del> <br>
-現在：5. 輸入apt-get install openjdk-21-jre-headless <br>
+	 <del>5. 輸入apt-get install openjdk-21-jre-headless</del> <br>
+現在：5. 輸入apt-get install openjdk-25-jre-headless <br>
 原本：<del>10.輸入git clone https://github.com/lordofwizard/mcserver</del> <br>
-現在：10. 輸入git clone https://github.com/tony0406/mcserver
+	 <del>10.輸入git clone https://github.com/tony0406/mcserver</del> <br>
+現在：10. 輸入git clone https://github.com/hensonreal/mcserver
 ### 創立伺服器
 原本：<del>選擇 [3]Create Forge Server</del> <br>
 現在：選擇 [1]Create Vanilla Server
